@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.leagues::-webkit-scrollbar {
+    display: none;
+}
